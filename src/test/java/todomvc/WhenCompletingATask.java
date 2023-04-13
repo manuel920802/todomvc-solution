@@ -1,4 +1,4 @@
-package todomvc.actions;
+package todomvc;
 
 import net.serenitybdd.core.Serenity;
 import net.serenitybdd.junit.runners.SerenityRunner;
@@ -9,6 +9,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
+import todomvc.actions.TodoListActions;
 
 @RunWith(SerenityRunner.class)
 public class WhenCompletingATask {
